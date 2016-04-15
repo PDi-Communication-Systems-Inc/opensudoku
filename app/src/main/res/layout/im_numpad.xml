@@ -73,7 +73,7 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:text="eight" />
+            android:text="@string/numpad_eight" />
         <Button
             android:id="@+id/button_9"
             android:layout_width="fill_parent"
