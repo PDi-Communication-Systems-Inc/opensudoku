@@ -8,7 +8,7 @@
 
     <TextView
         android:id="@+id/name"
-        android:text="name"
+        android:text="@string/folder_list_item_name"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -17,7 +17,7 @@
 
     <TextView
         android:id="@+id/detail"
-        android:text="detail"
+        android:text="@string/folder_list_item_detail"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:paddingLeft="5dip" />

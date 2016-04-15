@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/sudoku_board"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="State" />
+        android:text="@string/sudoku_list_item_state" />
 
     <TextView
         android:id="@+id/time"
@@ -28,7 +28,7 @@
         android:gravity="right"
         android:layout_marginLeft="8sp"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="00:00" />
+        android:text="@string/sudoku_list_item_time" />
 
     <TextView
         android:id="@+id/last_played"
@@ -37,7 +37,7 @@
         android:layout_below="@+id/state"
         android:layout_toRightOf="@+id/sudoku_board"
         android:layout_marginTop="4sp"
-        android:text="last_played" />
+        android:text="@string/sudoku_list_item_lastplayed" />
 
     <TextView
         android:id="@+id/created"
@@ -46,7 +46,7 @@
         android:layout_below="@+id/last_played"
         android:layout_toRightOf="@+id/sudoku_board"
         android:layout_marginTop="4sp"
-        android:text="created" />
+        android:text="@string/sudoku_list_item_created" />
 
     <TextView
         android:id="@+id/note"
@@ -55,6 +55,6 @@
         android:layout_below="@+id/created"
         android:layout_toRightOf="@+id/sudoku_board"
         android:layout_marginTop="4sp"
-        android:text="note" />
+        android:text="@string/sudoku_list_item_noted" />
 
 </RelativeLayout>
